@@ -16,6 +16,7 @@ import cucumber.api.java.en.When;
 public class LoginSteps {
 	WebDriver driver;
 	
+	
 	 @Given("^I navigaet to salesforce login page through chrome browser \"([^\"]*)\"$")
 	    public void loginApplication(String appUrl) throws Throwable {
 	       driver = DriverManager.getDriver("chrome");

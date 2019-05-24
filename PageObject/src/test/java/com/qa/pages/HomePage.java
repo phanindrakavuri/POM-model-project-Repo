@@ -4,5 +4,4 @@ public class HomePage {
 
 	public static String homePage_Icon_ID = "HomePage";
 	
-	
 }
